@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    color:honeydew;
+    font-size: 3rem;
+    cursor: pointer;
+    background-color: black;
+    border: 0;
+    pointer-events: all;
+}
+
+button:hover {
+    color:brown;
+    cursor: grabbing;
+}
+
+.slider {
+    position:absolute;
+    left:10%;
+    top:30%;
+    width: 70%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.slider-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200%;
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap:5px;
+    pointer-events: none;
+}
+
+.slider1 {
+    height:100%;
+    background-color: black;
+    text-align: center;
+    padding: 4.3rem;
+}
+
+.slider-container h2{
+    position: absolute;
+    left: 35in;
+    color:black;
+}
